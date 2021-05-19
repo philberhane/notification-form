@@ -19,8 +19,6 @@ After the image builds successfully, run a container from that image.
 docker run -d --name spring-template -p8080:8080 spring-template:latest
 ```
 
-This server will bind to port 8080, and respond to the same `curl` examples listed above.
-
 When you are done testing, stop the server and remove the container.
 ```
 docker rm -f spring-template
