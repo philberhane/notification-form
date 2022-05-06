@@ -46,7 +46,7 @@ export const NotificationForm = () => {
           if (data.success) {
             setFirstName("");
             setLastName("");
-            setEmailCheckBox(!emailCheckBox);
+            setEmailCheckBox(false);
             setPhoneCheckBox(false);
             setPhoneNumber("");
             setEmail("");
